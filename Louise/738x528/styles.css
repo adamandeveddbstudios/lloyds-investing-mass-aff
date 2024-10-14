@@ -176,7 +176,7 @@ sup {
   width: 738px;
   /* top: 530px; */
   top: 0px;
-  left: 19px;
+  left: 21.5px;
   letter-spacing: -2.5px;
   position: absolute;
 }
@@ -193,8 +193,8 @@ sup {
 .copy2 div {
   position: relative;
   /* width: 200px; */
-  height: 40px;
-  margin-bottom: -5px;
+  height: 44px;
+  margin-bottom: -8px;
   overflow: hidden;
 }
 
@@ -245,7 +245,7 @@ b {
 }
 
 .cta {
-  font-family: "GTU-Black";
+  font-family: "GTU-Bold";
   color: #000;
   font-size: 21px;
   top: 261px;

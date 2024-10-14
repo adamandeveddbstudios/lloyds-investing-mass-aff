@@ -7,15 +7,15 @@ body * {
 }
 
 * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-img{
-	border: 0
+img {
+  border: 0
 }
 
 button,
@@ -34,8 +34,8 @@ sup {
   position: absolute;
   top: 0;
   left: 0;
-  width: 320px;
-  height: 468px;
+  width: 300px;
+  height: 1500px;
   background-color: #6cf479;
   border: 1px solid #000;
   overflow: hidden;
@@ -52,8 +52,8 @@ sup {
   position: absolute;
   top: -1px;
   left: -1px;
-  width: 320px;
-  height: 468px;
+  width: 300px;
+  height: 1500px;
 }
 
 .retina {
@@ -84,8 +84,8 @@ sup {
 #default_exit {
   top: 0px;
   left: 0px;
-  width: 320px;
-  height: 468px;
+  width: 300px;
+  height: 1500px;
   z-index: 500;
 }
 
@@ -107,6 +107,7 @@ sup {
 }
 
 /* Custom Styles */
+
 @font-face {
   font-family: "GTU-Black";
   src: url("./fonts/GTUltraMedianLloyds-Black.woff");
@@ -122,46 +123,45 @@ sup {
   src: url("./fonts/GTUltraLloyds-Bold.woff2");
 }
 
-b{
-  font-family: "GTU-Bold";
-}
+
 /* Images Styles */
 
 .canvasImage {
-	width: 320px;
-	height: 468px;
+  width: 300px;
+  height: 1500px;
 }
-.logo{
-  width: 80px;
-  top: 17px;
+
+.logo {
+  width: 81px;
+  top: 409px;
   left: 28px;
 }
-.logo2{
+
+.logo2 {
   width: 72px;
   top: 178px;
   left: 114px;
 }
-.copy{
+
+.copy {
   font-family: "GTU-Black";
   color: #fff;
 }
+
 .copy1 {
-  font-size: 74px;
-  bottom: 125px;
+  font-size: 72px;
+  bottom: 538px;
   left: 0px;
-  letter-spacing: -0.3px;
   position: absolute;
   height: 145px;
-  /* background-color: #000; */
   width: 300px;
-  overflow: hidden;
 }
 
 .yes {
   position: relative;
   overflow: hidden;
-  height: 92px;
-  margin-bottom: -22px;
+  height: 100px;
+  margin-bottom: -30px;
 }
 
 
@@ -170,31 +170,31 @@ b{
   position: absolute;
   top: 6px;
   left: 9px;
-  letter-spacing: -0.9px;
+  letter-spacing: -3px;
 }
 
 #linetwo {
-  width: 320px;
+  width: 300px;
   /* top: 530px; */
-  top: 1px;
-  left: 20.5px;
-  letter-spacing: -0.8px;
+  top: 0px;
+  left: 20px;
   position: absolute;
 }
+
 .copy2 {
-  font-size: 20px;
-  top: 340px;
-  left: 23.2px;
-  line-height: 40px;
+  font-size: 19.6px;
+  top: 967px;
+  left: 24px;
+  /* line-height: 44px; */
   width: 100%;
   height: auto;
 }
 
 .copy2 div {
   position: relative;
-  width: 320px;
-  height: 34px;
-  margin-bottom: -9px;
+  width: 100%;
+  height: 30px;
+  margin-bottom: -5px;
   overflow: hidden;
 }
 
@@ -203,51 +203,56 @@ b{
 }
 .copy2 .age{
   font-family: "GTU-Light";
-  font-size:14.5px;
+  font-size:15px;
 }
-.copy3{
-  top: 27px;
+
+.copy3 {
+  top: 556px;
   color: #000;
-  font-size: 51px;
-  line-height: 49px;
-  width: 320px;
+  font-size: 52.5px;
+  line-height: 50px;
+  width: 300px;
   text-align: center;
-  left: -300px;
 }
-.copy4{
+
+.copy4 {
   font-family: "GTU-Light";
   font-size: 17.5px;
   text-align: center;
-  top: 197px;
-  line-height: 11px;
-  width: 320px;
+  top: 725px;
+  line-height: 12px;
+  width: 300px;
   text-align: center;
 }
 
-.copy4 span{
+.copy4 span {
   display: block;
   width: 100%;
   text-align: center;
- }
-.legal{
+}
+
+.legal {
   font-family: "GTU-Light";
   font-size: 11.5px;
   color: #fff;
-  /* text-align: center; */
-  bottom: 14px;
+  bottom: 402px;
   width: 100%;
-  /* text-align: center; */
-  left: 27px;
-
+  left: 25px;
 }
-.cta{
+
+b {
+  font-family: "GTU-Bold"
+}
+
+.cta {
   font-family: "GTU-Bold";
-  color: #000;
-  font-size: 16.5px;
-  top: 276px;
-  left: 95px;
-  width: 129px;
-  height: 43px;
+  font-size: 17px;
+  bottom: 653px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 130px;
+  height: 42px;
   border-radius: 50px;
   border: #000 solid 2px;
   text-align: center;
@@ -255,12 +260,14 @@ b{
   align-items: center;
   justify-content: center;
 }
-#green{
+
+#green {
   background-color: #6cf479;
-  width: 320px;
-  height: 468px;
-  left: -320px;
+  width: 300px;
+  height: 1500px;
+  left: -300px;
 }
+
 /* 
 #imageWrapper {
   transform-origin: 50% 65%;
@@ -274,20 +281,21 @@ b{
 
 
 
- /* horse */
- .horse_static{
-  top: 343px;
+/* horse */
+.horse_static {
+  top: 874px;
   left: -133px;
-  width: 40px;
- }
- .horse_gif{
+  width: 41px;
+}
+
+.horse_gif {
   top: 425px;
   left: 117px;
   width: 70px;
- }
- .logo_text{
-  top: 385px;
+}
+
+.logo_text {
+  top: 917px;
   left: -101px;
-  width: 78px;
- }
- 
+  width: 82px;
+}
