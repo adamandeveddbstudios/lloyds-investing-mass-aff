@@ -170,7 +170,7 @@ b{
   position: absolute;
   top: 6px;
   left: 9px;
-  letter-spacing: -0.9px;
+  letter-spacing: -3px;
 }
 
 #linetwo {
@@ -178,7 +178,7 @@ b{
   /* top: 530px; */
   top: 1px;
   left: 20.5px;
-  letter-spacing: -0.8px;
+  letter-spacing: -0.2px;
   position: absolute;
 }
 .copy2 {
