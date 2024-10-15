@@ -34,7 +34,6 @@ function animate() {
     .to(['#linetwo'], 1, { y: '0px', autoAlpha: 1, ease: 'back.out', yoyo: true }, 'frame1+=0.5')
 
   tl.addLabel('frame2', 2)
-    // .to(['#lineone, #linetwo'], 0.5, { autoAlpha: 0, ease: "power1.inOut", yoyo: true }, 'frame2')
     .to(['#copy2'], 0, { autoAlpha: 1, ease: 'back.out', yoyo: true }, 'frame2+=.5')
     .staggerTo(['.copy2 span',], 1, { y: "0", autoAlpha: 1, ease: 'back.out', yoyo: true }, 0.25, 'frame2+=.5')
 

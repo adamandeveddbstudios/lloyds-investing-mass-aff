@@ -178,9 +178,9 @@ sup {
 #linetwo {
   width: 1240px;
   /* top: 530px; */
-  top: 0px;
-  left: 28px;
-  letter-spacing: -2px;
+  top: -2px;
+  left: 29px;
+  letter-spacing: -3.8px;
   position: absolute;
 }
 
@@ -198,11 +198,11 @@ sup {
 .copy2 {
   font-size: 34px;
   top: 320px;
-  left: 49px;
+  left: 52px;
   line-height: 32px;
   width: 100%;
   height: auto;
-  /* letter-spacing: -4.5px;*/
+  letter-spacing: -0.1px;
 }
 
 .copy2 div {
